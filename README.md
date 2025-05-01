@@ -67,6 +67,7 @@ This project can be deployed on any static hosting platform (like GitHub Pages, 
 - Semantic tags were used to improve accessibility.
 - `robots.txt` and `sitemap.xml` are included to guide search engine crawlers.
 - Images contain descriptive `alt` tags.
+- Buttons contain descript `arial-label` tags.
 
 ## 🧪 Requirements Covered
 
