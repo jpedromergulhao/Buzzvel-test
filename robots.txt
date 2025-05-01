@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://.com/sitemap.xml
+Sitemap: https://buzzvel-test-bice.vercel.app/sitemap.xml
