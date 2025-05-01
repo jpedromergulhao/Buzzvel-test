@@ -4,6 +4,10 @@
     gap: 24px;
 }
 
+.features-text a:hover{
+    text-decoration: underline;
+}
+
 .features-card-img {
     width: 600px;
     height: 554px;
@@ -56,6 +60,13 @@
     border-radius: 8px;
     margin-top: auto;
     background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.features-card button:hover{
+    cursor: pointer;
+    background-color: var(--blue600);
+    color: #fff;
 }
 
 .features-card-img-picture-one {

@@ -4,6 +4,10 @@
     gap: 24px;
 }
 
+.all-ino-one-texts a:hover{
+    text-decoration: underline;
+}
+
 .all-in-one ul {
     gap: 16px;
 }
@@ -81,6 +85,10 @@
     border-radius: 20px;
 }
 
+.video-card img:hover{
+    cursor: pointer;
+}
+
 .video-cards-container {
     display: flex;
     flex-direction: row;
@@ -150,6 +158,13 @@
     border-radius: 8px;
     margin-top: auto;
     background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.video-cards button:hover{
+    cursor: pointer;
+    background-color: var(--blue600);
+    color: #fff;
 }
 
 @media (min-width: 800px) {

@@ -76,18 +76,15 @@
         height: 48px;
     }
 
-    .forwad, 
-    .back{
+    .feedback-two-btns button {
         background-color: transparent;
         border: none;
         padding: 0;
         border-radius: 50%;
         height: 48px;
-        transition: background 0.3s ease-in-out;
     }
 
-    .forwad:hover,
-    .back:hover{
-        background-color: #e68d5d;
+    .feedback-two-btns button:hover{
+        cursor: pointer;
     }
 }

@@ -29,11 +29,16 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-primary {
     background: var(--orange600);
     color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--orange200);
 }
 
 .btn-secondary {
@@ -42,6 +47,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.btn-secondary:hover{
+    border: 1px solid var(--blue600);
 }
 
 .leading-companies {

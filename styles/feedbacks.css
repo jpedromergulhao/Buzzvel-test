@@ -26,6 +26,11 @@
     z-index: 1;
 }
 
+.feedback-btn:hover{
+    cursor: pointer;
+    background-color: var(--blueGray2);
+}
+
 .active {
     background-color: var(--blueGray2);
     width: 32px;

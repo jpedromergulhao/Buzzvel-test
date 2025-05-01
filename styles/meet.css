@@ -4,6 +4,10 @@
     gap: 24px;
 }
 
+.meet-texts a:hover{
+    text-decoration: underline;
+}
+
 .meet-texts h2 img {
     position: absolute;
     top: -20px;
