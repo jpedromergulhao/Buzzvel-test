@@ -1,0 +1,86 @@
+.feedbacks {
+    background-color: var(--yellow);
+    overflow: visible;
+    padding-bottom: 50px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.feedback-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.feedback-btn {
+    background-color: #fff;
+    border: none;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.active {
+    background-color: var(--blueGray2);
+    width: 32px;
+    border-radius: 10px;
+}
+
+.feedback-btn button {
+    display: none;
+}
+
+.feedback-picture {
+    position: relative;
+    height: 250px;
+}
+
+.feedback-picture-one {
+    display: none;
+}
+
+.feedback-picture-two {
+    position: absolute;
+    width: 361px;
+    height: auto;
+    bottom: -90px;
+    transform: translateX(25%);
+    z-index: 2;
+}
+
+
+@media (min-width: 750px) {
+    .feedbacks {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 64px 80px;
+    }
+
+    .feedback-container {
+        flex: 1;
+        width: 528px;
+        margin-right: 300px;
+        gap: 32px;
+    }
+
+    .feedback-picture-two {
+        display: none;
+    }
+
+    .feedback-picture-one {
+        display: block;
+        height: 415px;
+        position: absolute;
+        right: -80px;
+        top: -80px;
+        z-index: 5;
+    }
+
+}

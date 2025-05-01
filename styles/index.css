@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --blueGray900: #0F172A;
+    --blueGray600: #475569;
+    --blueGray200: #E2E8F0;
+    --orange600: #EA580C;
+    --blue600: #2563EB;
+    --rose600: #E11D48;
+    --amber400: #FBBF24;
+    --green500: #22C553;
+    --purple100: #F3E8FF;
+    --purple800: #6B21A8;
+    --blue100: #DBEAFE;
+    --blue800: #1E40AF;
+    --green100: #95caaa;
+    --green800: #166534;
+    --yellow: #FACC15;
+    --blueGray2: #0F172A;
+    --orange: #EA580C;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    color: var(--blueGray900);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    line-height: 110%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.highlight {
+    text-decoration: underline;
+    text-decoration-color: var(--orange600);
+}
+
+.hero,
+.all-in-one,
+.feedbacks,
+.meet,
+.metrics,
+.feedback-two,
+.features,
+.sing-up,
+.request-demo,
+footer {
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+.all-in-one a,
+.meet a,
+.features a {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blue600);
+}
+
+@media (min-width: 800px) {
+
+    .hero,
+    .all-in-one,
+    .feedbacks,
+    .meet,
+    .metrics,
+    .feedback-two,
+    .features,
+    .sing-up,
+    .request-demo,
+    footer {
+        padding: 48px 30px
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .hero,
+    .all-in-one,
+    .feedbacks,
+    .meet,
+    .metrics,
+    .feedback-two,
+    .features,
+    .sing-up,
+    .request-demo,
+    footer {
+        padding: 80px
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 56px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 160%;
+    }
+}

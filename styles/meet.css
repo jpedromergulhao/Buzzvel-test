@@ -1,0 +1,44 @@
+.meet-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.meet-texts h2 img {
+    position: absolute;
+    top: -20px;
+    right: 210px;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (min-width: 800px) {
+    .meet {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .meet-texts h2 img{
+        height: 64px;
+        width: auto;
+        top: -50px;
+    }
+}
+
+@media (min-width: 1024px){
+    .meet-texts h2 img{
+        right: 350px;
+    }
+}
